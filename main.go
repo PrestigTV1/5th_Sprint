@@ -15,7 +15,7 @@ const (
 )
 
 // Training общая структура для всех тренировок
-type Training struct { //c 19 - 23 my code
+type Training struct {
 	TrainingType string        // тип тренировки
 	Action       int           // количество повторов(шаги, гребки при плавании)
 	LenStep      float64       // длина одного шага или гребка в м
